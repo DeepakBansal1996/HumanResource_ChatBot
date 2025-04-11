@@ -1,0 +1,448 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+        "tag": "about",
+        "patterns": [
+            "What can you do",
+            "Who are you",
+            "What are you",
+            "What is your purpose"
+        ],
+        "responses": [
+            "I am a chatbot",
+            "My purpose is to assist you",
+            "I can answer questions and provide assistance"
+        ]
+    },
+    {
+        "tag": "help",
+        "patterns": [
+            "Help",
+            "I need help",
+            "Can you help me",
+            "What should I do"
+        ],
+        "responses": [
+            "Sure, what do you need help with?",
+            "I'm here to help. What's the problem?",
+            "How can I assist you?"
+        ]
+    },
+    {
+        "tag": "age",
+        "patterns": [
+            "How old are you",
+            "What's your age"
+        ],
+        "responses": [
+            "I don't have an age. I'm a chatbot.",
+            "I was just born in the digital world.",
+            "Age is just a number for me."
+        ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don’t scientists trust atoms? Because they make up everything!",
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "Did you hear about the mathematician who’s afraid of negative numbers? He’ll stop at nothing to avoid them!"
+      ]
+    },
+    {
+      "tag": "leave",
+      "patterns": [
+        "What are the leave types",
+        "Tell me the types of leave in as per the India leave policy"
+      ],
+      "responses": [
+        "Here are the leaves types: Earned Leave (15 Days), Casual Leave (10 Days), Sick Leave (15 Days), Maternity Leave (26 Calendar weeks), Bereavement Leave (3 Working Days), Marital Leave (5 Working Days)",
+        "Earned Leave (15 Days), Casual Leave (10 Days), Sick Leave (15 Days), Maternity Leave (26 Calendar weeks), Bereavement Leave (3 Working Days), Marital Leave (5 Working Days)"
+      ]
+    },
+    {
+        "tag": "name",
+        "patterns": [
+            "What's your name",
+            "Do you have a name",
+            "What should I call you"
+        ],
+        "responses": [
+            "You can call me Chatbot.",
+            "My name is Chatbot."
+        ]
+    },
+    {
+        "tag": "Frontend",
+        "patterns": [
+        "What are the frontend technologies?",
+		"List down the frontend skills",
+		"List down the front-end technologies",
+		"Frontend technologies",
+		"Technology used to create UI",
+		"What are the technologies use to create UI",
+		"UI Technologies"
+    ],
+    "responses": [
+        "TypeScript, Angular, React, React-Native, ViewJs, and Flutter", 
+		"Here's a more detailed breakdown of frontend technologies: TypeScript, Angular, React, React-Native, ViewJs, and Flutter"
+    ]
+},
+{
+    "tag": "Backend",
+    "patterns": [
+        "What are the backend technologies?",
+		"List down the backend languages",
+		"List down the back-end technologies",
+		"Backend technologies",
+		"Technology used to create backend",
+		"What are the technologies use to create website backend",
+		"Tell the me technologies to create application backend"
+    ],
+    "responses": [
+        "Most Popular Backend Tech Stacks: NodeJs, Java, Ruby on Rails, Python, C#, and Java",
+		"NodeJs, Java, Ruby on Rails, Python, C#, and Java."
+    ]
+},
+{
+    "tag": "Database",
+    "patterns": [
+        "What are the Database technologies?",
+		"List down the database skills",
+		"List down the database technologies",
+		"Database technologies",
+		"Technology used to create database",
+		"What are the technologies use to create website Database",
+		"Tell the me technologies to create application DB"
+    ],
+    "responses": [
+        "Here's a more detailed breakdown: Relational Databases (SQL/Postgre/MySQL), NoSQL Databases (MongoDB, Redis, Cassandra).",
+		"Relational Databases (SQL/Postgre/MySQL), NoSQL Databases (MongoDB, Redis, Cassandra)",
+		"Relational Databases (SQL): Store data in tables with rows and columns, using SQL for querying and manipulation. Examples: MySQL, PostgreSQL, Oracle, Microsoft SQL Server. NoSQL Databases: Designed to handle large volumes of unstructured or semi-structured data. Examples: MongoDB, Redis, Cassandra."
+    ]
+},
+{
+    "tag": "Cloud",
+    "patterns": [
+        "What are the Cloud technologies?",
+		"List down the cloud skills",
+		"List down the cloud technologies",
+		"Cloud technologies",
+		"Technology used to create cloud based infra",
+		"What are the technologies use to create website infrastructure",
+		"What are the different cloud technologies?"
+    ],
+    "responses": [
+        "Here's a more detailed breakdown of cloud technologies: Amazon Web Services, Microsoft Azure, Google Cloud Platform, and Salesforce Cloud",
+		"Microsoft Azure, Google Cloud Platform, and Salesforce Cloud", 	
+		"The big three of cloud computing platforms: Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) are the three cloud service providers dominating the cloud market worldwide."
+    ]
+},
+{
+    "tag": "DevOps",
+    "patterns": [
+        "What are DevOps technologies?",
+		"List down the DevOps skills",
+		"List down the devops technologies",
+		"DevOps technologies",
+		"Technology used to create dev-ops based infra"
+    ],
+    "responses": [
+        "Here's a more detailed breakdown of common DevOps technologies: CI/CD, Git, Docker, Terraform", 
+		"CI/CD, Git, Docker, Terraform",
+		"These tools cover areas like version control, continuous integration (CI), continuous delivery (CD), containerization, test monitoring, and configuration management."
+    ]
+},
+{
+    "tag": "QA",
+    "patterns": [
+        "What are the QA technologies?",
+		"List down the QA tools",
+		"List down the QA technologies",
+		"Testing Tools",
+		"Technology used to test the application",
+		"Technology used to test the website",
+		"Testing",
+		"What is the best QA software?"
+    ],
+    "responses": [
+       "Selenium, Postman, and Cypress",
+	   "Here's a breakdown of popular tools: Selenium, Postman, and Cypress"
+    ]
+},
+{
+    "tag": "UI/UX",
+    "patterns": [
+        "What are the UX technologies?",
+		"List down the UI/UX tools",
+		"What are the basic tools of design?",
+		"Designing Tools",
+		"Technology used to design the application",
+		"Technology used to design the website",
+		"What tool do designers use?"
+    ],
+    "responses": [
+        "Here's a breakdown of popular tools and their common uses: Figma, Sketch, Adobe XD, and Framer",
+		"Figma, Sketch, Adobe XD, and Framer"
+    ]
+},
+{
+    "tag": "IT",
+    "patterns": [
+      "What are the IT technologies?",
+	  "List down the it tools",
+	  "List down the networking tools",
+	  "Networking and cyber security Tools",
+	  "Networking",
+	  "Cyber Security"
+    ],
+    "responses": [
+       "Here's a list of IT skills: Network security, cybersecurity analytics, penetration testing, firewalls, intrusion detection systems, Network architecture, network setup, TCP/IP, DNS, DHCP", 
+	   "Cybersecurity: Network security, cybersecurity analytics, penetration testing, firewalls, intrusion detection systems. Networking: Network architecture, network setup, TCP/IP, DNS, DHCP"
+    ]
+},
+{
+    "tag": "Accounts",
+    "patterns": [
+     "Accounting Tools",
+	 "List down the tools to perform accounting"
+    ],
+    "responses": [
+       "Here's a more detailed breakdown of key technical accounting skills: Financial Statement Analysis, Auditing, Tax Preparation, Cost Accounting, Financial Modeling, and Budgeting and Forecasting", 
+	   "Financial Statement Analysis, Auditing, Tax Preparation, Cost Accounting, Financial Modeling, and Budgeting and Forecasting",
+       "Technical skills for accountants include proficiency in accounting software, knowledge of GAAP and IFRS, financial statement analysis, auditing, tax preparation, and data analysis, all crucial for managing financial data and ensuring compliance"
+    ]
+},
+{
+	"tag": "UI_UX",
+    "patterns": [
+        "List down the resource name who can work on UI/UX",
+		"Resource names who have experience in designing",
+		"Who have experience in user research",
+		"Who can design web apps",
+		"Who can work on Figma"     
+      ],
+      "responses": [
+			"Manvi Kataria: Allocation: 50% and Current Project: CG One, Roopa Bhatt: Allocation: 0% and Current Project: NA, Vishakha Maurya: Allocation: 70% and Current Project: CG One"
+	  ]
+},
+{
+    "tag": "Salesforce_certified",
+    "patterns": [
+       	"Salesforce certified resources",
+		"List down the name who are salesforce certified",
+		"Who have salesforce certification",
+		"Salesforce certified"
+      ],
+      "responses": [
+		"Deepak Bansal, Rishabh Singhal, Mayank Agarwal, Ayushi Gupta, Nikhil Kumar Shrivastav, Anu Malik."
+		]
+},
+{
+    "tag": "AWS_certified",
+    "patterns": [
+       	"AWS certified resources",
+		"List down the name who are AWS certified",
+		"Who have AWS certification",
+		"AWS certified"
+      ],
+      "responses": [
+		"Deepak Bansal, Sunil Kumar, Vaibhav Mishra, Suparn Kumar"
+		]
+},
+{
+    "tag": "AZURE_certified",
+    "patterns": [
+       	"Azure certified resources",
+		"List down the name who are azure certified",
+		"Who have azure certification",
+		"AZURE certified"
+      ],
+      "responses": [
+		"Ankit Khandelwal, Ramesh Kumar, Roopa Bhat, Sunil Kumar"
+	]
+},
+{
+      "tag": "Angular",
+      "patterns": [
+        "List Angular developers",
+        "Who is working on Angular projects?",
+        "Angular skilled resources",
+        "Developers with Angular expertise",
+        "Who have experience in Angular",
+        "Who can work on Angular"
+      ],
+      "responses": [
+        "Deepak Bansal: Allocation: 50% and Current Project: Shell UK, Ramesh Kumar: Allocation: 50% and Current Project: Shell UK."
+      ]
+    },
+
+{
+      "tag": "Salesforce",
+      "patterns": [
+        "List Salesforce developers",
+        "Who is working on Salesforce?",
+        "Salesforce resources",
+        "Team members skilled in Salesforce",
+        "Developers with Salesforce expertise",
+        "Who have experience in Salesforce",
+        "Who can work on Salesforce"
+      ],
+      "responses": [
+        "Pankaj Kumar: Allocation: 40% and Current Project: Shell UK, Ankit Malviya: Allocation: 50% and Current Project: Gas South"
+      ]
+    },
+    {
+      "tag": "AWS",
+      "patterns": [
+        "List AWS developers",
+        "AWS skilled team members",
+        "AWS project resources",
+        "AWS experts in the team",
+        "Developers with AWS expertise",
+        "Who have experience in AWS",
+        "Who can work on AWS"
+      ],
+      "responses": [
+        "Shivam: Allocation: 60% and Current Project: Hudson Prod Support, Manoj: Allocation: 60% and Current Project: Dell"
+      ]
+    },
+    {
+      "tag": "Dot_net",
+      "patterns": [
+        "List down Dot net developers",
+        "Dot net experts",
+        "Who can work on .net?",
+        "Who have experience in ASP dot Net"
+      ],
+      "responses": [
+        "Kathansh Sundrawat: Allocation: 70% and Current Project: Gas South, Gaurav: Allocation: 90% and Current Project: Shell UK"
+      ]
+    },
+    {
+      "tag": "Snowflakes",
+      "patterns": [
+        "List Snowflakes experts",
+        "Who can work on Snowflakes?",
+        "Snowflakes resources"
+      ],
+      "responses": [
+        "Anjali Singh: Allocation: 40% and Current Project: Dell, Gaurav Verma: Allocation: 70% and Current Project: Gas South"
+      ]
+    },
+    
+    {
+      "tag": "RelationalDatabase",
+      "patterns": [
+        "List SQL developers",
+        "Who is working on MySQL projects?",
+        "SQL skilled resources",
+        "Developers with SQL expertise",
+        "Who have experience in SQL server",
+        "Who can work on SQL"
+      ],
+      "responses": [
+        "Subin Kumar: Allocation: 50% and Current Project: Shell UK, Ramesh Kumar: Allocation: 50% and Current Project: Gas South."
+      ]
+    },
+    {
+      "tag": "NonRelationalDatabase",
+      "patterns": [
+        "List MongoDB developers",
+        "Who is working on NoSQL projects?",
+        "NoSQL skilled resources",
+        "Developers with DynamoDB expertise",
+        "Who have experience in NoSQL server",
+        "Who can work on Neptune Db"
+      ],
+      "responses": [
+        "Ankit Khandelwal: Allocation: 40% and Current Project: JE, Ankit Malviya: Allocation: 100% and Current Project: Gas South"
+      ]
+    },
+    {
+      "tag": "React",
+      "patterns": [
+        "List React developers",
+        "React skilled team members",
+        "React experts in the team",
+        "Developers with React expertise",
+        "Who have experience in React",
+        "Who can work on React"
+      ],
+      "responses": [
+        "Deepak Bansal: Allocation: 100% and Current Project: Shell UK, Rishabh Singhal: Allocation: 100% and Current Project: Shell US"
+      ]
+    },
+    {
+      "tag": "DevOps",
+      "patterns": [
+        "List down DevOps developers",
+        "DevOps experts",
+        "Who can work on DevOps",
+        "Who have experience in DevOps"
+      ],
+      "responses": [
+        "Anu Malik: Allocation: 100% and current project: Jus Energy, Isha Katiyar: Allocation: 0% and current project: CGOne"
+      ]
+    },
+    {
+      "tag": "Associate",
+      "patterns": [
+        "List down the associate names",
+        "Associate",
+        "Who are on associate level"
+      ],
+      "responses": [
+        "Deepak Bansal, Sunil Kumar, Ramesh Kumar, Rohit Taneja, Vishakha Morya, Manvi Kartia"
+      ]
+    },
+    {
+      "tag": "Manager",
+      "patterns": [
+        "List down the manager names",
+        "Manager",
+        "Who are on manager level"
+      ],
+      "responses": [
+        "Roopa Bhatt, Vijay Sharma, Shikar Singh, Sandeep Haldar"
+      ]
+    }
+]
+}
