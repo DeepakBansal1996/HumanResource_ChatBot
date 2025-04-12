@@ -27,6 +27,23 @@
       ]
     },
     {
+      "tag": "missLeadingWords",
+      "patterns": ["sskjdfhjk", "hd hdun", "koojs jkhd hahahah", "ujdgh athdk"],
+      "responses": [
+        "It seems like a jumble of letters—perhaps a keyboard slip? If there's something you'd like to discuss, feel free to share! I'm here to help or chat about whatever's on your mind.",
+        "I'm not sure I understand, was that a typo, or is there something specific you'd like to discuss? Let me know, and we can dive right in!",
+        "Bye! Come back again soon."
+      ]
+    },
+     {
+       "tag": "missLeadingNumber",
+       "patterns": ["5451231", "999999999", "12", "3.641564", "123", "1111", "000000"],
+       "responses": [
+         "That's quite a number! Is there a story or reason behind it, or are you just randomly experimenting? If there's something on your mind, I'm all ears!",
+         "IThat's quite the pattern! Are you sending me a secret code, or just exploring numbers? If you'd like to talk about something specific or brainstorm ideas, I'm here for it!"
+       ]
+     },
+    {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
@@ -40,7 +57,7 @@
             "What is your purpose"
         ],
         "responses": [
-            "I am a chatbot",
+            "I am a HRMS Chatbot",
             "My purpose is to assist you",
             "I can answer questions and provide assistance"
         ]
@@ -89,7 +106,7 @@
     {
       "tag": "leave",
       "patterns": [
-        "What are the leave types",
+        "What are the leave types?",
         "Tell me the types of leave in as per the India leave policy"
       ],
       "responses": [
@@ -106,7 +123,7 @@
         ],
         "responses": [
             "You can call me Chatbot.",
-            "My name is Chatbot."
+            "My name is HRMS Chatbot."
         ]
     },
     {
@@ -379,7 +396,7 @@
         "Who can work on SQL"
       ],
       "responses": [
-        "Subin Kumar: Allocation: 50% and Current Project: Shell UK, Ramesh Kumar: Allocation: 50% and Current Project: Gas South."
+        "Sunil Kumar: Allocation: 50% and Current Project: Shell UK, Ramesh Kumar: Allocation: 50% and Current Project: Gas South."
       ]
     },
     {
